@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>checkout</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="styles4.css">
+
+</head>
+<body>
+   <div class="total">
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="" class="logo">yum-yum 😋</a>
+
+      <nav class="navbar">
+         <a href="">home</a>
+         <a href="">about</a>
+         <a href="">menu</a>
+         <a href="">orders</a>
+         <a href="">contact</a>
+      </nav>
+
+      <div class="icons">
+         <a href=""><i class="fas fa-search"></i></a>
+         <a href=""><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">shaikh anas</p>
+         <div class="flex">
+            <a href="" class="btn">profile</a>
+            <a href="" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="">login</a> or <a href="">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>checkout</h3>
+   <p><a href="">home </a> <span> / checkout</span></p>
+</div>
+
+<section class="checkout">
+
+   <h1 class="title">order summary</h1>
+
+   <form action="" method="post">
+      <div class="cart-items">
+         <h3>cart items</h3>
+         <p><span class="name">Idli Vada</span><span class="price">Rs 40</span></p>
+         <p><span class="name">Masala Dosa</span><span class="price">Rs 50</span></p>
+         <p><span class="name">Fried Rice</span><span class="price">Rs 60</span></p>
+         <p class="grand-total"><span class="name">Grand Total :</span> <span class="price">Rs 150</span></p>
+         
+         
+      </div>
+      <div class="user-info">
+         <!-- <h3>your info</h3>
+         <p><i class="fas fa-user"></i> <span>Akash Ganamukhi</span></p>
+         <p><i class="fas fa-phone"></i> <span>PES1202203729</span></p>
+         <p><i class="fas fa-envelope"></i> <span>akashG@gmail.com</span></p>
+         <a href="" class="btn">update info</a>
+         <h3>delivery address</h3>
+         <p class="address"><i class="fas fa-map-marker-alt"></i> <span>First sem F-Block 3rd Floor Room no:302</span></p> -->
+         <!-- <a href="" class="btn">update address</a> -->
+         <select name="method" class="box">
+            <option value="">select payment method</option>
+            <option value="cash on delivery">cash on delivery</option>
+            <option value="credit card">Phonepe</option>
+            <option value="paytm">paytm</option>
+            <option value="paypal">Gpay</option>
+         </select>
+      </div>
+      <a href="E-counter5.html" class="btn">Place Order</a>
+   </form>
+
+</section>
+
+
+
+</body>
+</html>

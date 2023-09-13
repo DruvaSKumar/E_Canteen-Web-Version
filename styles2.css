@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Rowdies:wght@300&display=swap');
+
+body
+{
+        background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+
+.title{
+    /* margin-right: auto; */
+    color: rgb(75, 34, 8);
+    
+    font-family: 'Rowdies', cursive;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-top: 200px ;
+    font-weight: 600;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px ;
+    margin-bottom: 50px;
+    margin-left: 170px;
+    margin-right: 170px;
+
+}
+
+.main img{
+    border: 2px solid rgb(84, 48, 48);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 0px ;
+
+}
+
+.name{
+    font-family: fantasy;
+    font-style: italic;
+    font-size: large;
+    /* font-weight: bolder; */
+    text-decoration: underline;
+    margin-bottom: 12px;
+}
+
+.name2{
+    font-weight: bold;
+}
+
+ul{
+    padding-left: 5px;
+    font-weight: 900;
+}
+
+.sub{
+    display:block;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 30px;
+
+}
+
+.item{
+    font-weight: bolder;
+    border-color: black;
+    border-radius: 20px;
+    padding:10px;
+    /* margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px; */
+}
+
+.each{
+    border: 3px solid rgba(100, 45, 27, 0.808);
+    background-color: rgba(209, 172, 127, 0.623);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(75, 46, 38);
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+} 
+.Next{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 100px;
+    margin-left: 725px;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 50%;
+    background-color: rgb(82, 28, 3);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    bottom: 140px;
+    right: 30px;
+
+    
+}
+
+ 
+
+ .Next:hover{
+    letter-spacing: .2rem;
+    background-color: rgb(173, 74, 28);
+ }
